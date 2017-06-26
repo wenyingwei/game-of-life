@@ -185,15 +185,14 @@
                                 <action>
                                     <!-- m2e doesn't know what to do with jacoco,
                                         let's ignore it or annoying error markers appear
-                                        see http://wiki.eclipse.org/M2E_plugin_execution_not_covered
-                                     -->
+                                        see http://wiki.eclipse.org/M2E_plugin_execution_not_covered -->                               
                                     <ignore></ignore>
                                 </action>
                             </pluginExecution>
                         </pluginExecutions>
                     </lifecycleMappingMetadata>
                 </configuration>
-            </plugin>
+            </plugin> 
 
             </plugins>
         </pluginManagement>
