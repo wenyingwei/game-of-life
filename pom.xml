@@ -165,7 +165,7 @@
                     </configuration>
                 </plugin>
                 
-                <plugin>
+                <!-- <plugin>
                 <groupId>org.eclipse.m2e</groupId>
                 <artifactId>lifecycle-mapping</artifactId>
                 <version>1.0.0</version>
@@ -183,9 +183,9 @@
                                     </goals>
                                 </pluginExecutionFilter>
                                 <action>
-                                    <!-- m2e doesn't know what to do with jacoco,
+                                    m2e doesn't know what to do with jacoco,
                                         let's ignore it or annoying error markers appear
-                                        see http://wiki.eclipse.org/M2E_plugin_execution_not_covered -->                               
+                                        see http://wiki.eclipse.org/M2E_plugin_execution_not_covered                               
                                     <ignore></ignore>
                                 </action>
                             </pluginExecution>
@@ -193,7 +193,7 @@
                     </lifecycleMappingMetadata>
                 </configuration>
             </plugin> 
-
+ -->
             </plugins>
         </pluginManagement>
         <extensions>
@@ -233,30 +233,6 @@
             <version>1.9.0</version>
             <scope>test</scope>
         </dependency>
-        
-        <dependency>
-			<groupId>org.codehaus.plexus</groupId>
-			<artifactId>plexus-utils</artifactId>
-			<version>3.0.5</version>
-		</dependency>
-		
-		<dependency>
-			<groupId>org.codehaus.plexus</groupId>
-			<artifactId>plexus-digest</artifactId>
-			<version>1.0</version>
-		</dependency>
-		
-		<dependency>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-install-plugin</artifactId>
-			<version>2.4</version>
-		</dependency>
-		
-		<dependency>
-			<groupId>net.thucydides.maven.plugins</groupId>
-			<artifactId>maven-thucydides-plugin</artifactId>
-			<version>0.9.268</version>
-		</dependency>
     </dependencies>
 
     <modules>
