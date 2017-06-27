@@ -17,8 +17,7 @@
     </properties>
 
     <build>
-<!--         <finalName>gameoflife</finalName> -->
-		<finalName>gameoflife-web</finalName>
+        <finalName>gameoflife</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
