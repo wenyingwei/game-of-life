@@ -159,7 +159,7 @@
                         </execution>
                     </executions>
                     <configuration>
-                        <storyType>html</storyType>                         l
+                        <storyType>html</storyType>                         
                         <storyReport>${basedir}/target/easyb/easyb-report.html
                         </storyReport>
                     </configuration>
@@ -455,6 +455,7 @@
                         <artifactId>cobertura-maven-plugin</artifactId>
                         <version>${cobertura.version}</version>
                         <configuration>
+                        <dataFile>${basedir}/target/cobertura.ser</dataFile>
                             <formats>
                                 <format>html</format>
                                 <format>xml</format>
