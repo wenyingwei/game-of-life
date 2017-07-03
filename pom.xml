@@ -76,10 +76,10 @@
                 </executions>
             </plugin>
             <!-- CODE COVERAGE -->
-            <!-- <plugin>
+            <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                //<version>0.7.2.201409121644</version>
+<!--                 <version>0.7.2.201409121644</version> -->
 					<version>0.7.9</version>
                 <executions>
                     <execution>
@@ -97,17 +97,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin> -->
-            
-            <plugin>
-            	<groupId>com.atlassian.maven.plugins</groupId>
-                <artifactId>maven-clover2-plugin</artifactId>
-                <version>3.0.4</version>
-                <configuration>
-                    <includesTestSourceRoots>false</includesTestSourceRoots>
-                    <generateXml>true</generateXml>
-                </configuration>
-            </plugin>           
+            </plugin>
 
             <plugin>
                 <artifactId>maven-release-plugin</artifactId>
